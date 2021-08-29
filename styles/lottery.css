@@ -1,0 +1,73 @@
+button {
+    display: block;
+    text-align: center;
+    background: #ffff;
+    border: 1px solid #1e80ff;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #1e80ff;
+}
+p {
+    display: block;
+}
+.lottery_wrapper {
+    min-height: inherit;
+    position: relative;
+    overflow: hidden;
+}
+.item_container {
+    width: 100%;
+    height: 100%;
+    background: #e37815;
+    border-radius: 8px;
+    box-sizing: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+} 
+.title {
+    position: relative;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #fadd95;
+    margin: 0;
+}
+.gift_item {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #e37815;
+    border-radius: 4px;
+    background: #fdf3f3;
+    position: relative;
+    user-select: none;
+    text-align: center;
+}
+.selected {
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px 2px #cf6a0b;
+    position: relative;
+    background: #cf6a0b;;
+}
+.lottery_item {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #e37815;
+    border-radius: 4px;
+    background: #ffe6a6;
+    position: relative;
+    text-align: center;
+}
+.lottery_text {
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 600;
+    color: #a74b00;
+}
+.text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #d25f00;
+}
