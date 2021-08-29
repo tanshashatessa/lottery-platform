@@ -1,8 +1,9 @@
-.lottery_contaienr .lottery_wrapper .main .box .left_part .lottery{
+/* 黄盒子 */
+.lottery{
     width: 100%;
-    height: 396px;
+    
 }
-.turntable-box{
+.turntable_yellow{
     background: #fadd95;
     box-shadow: inset 0 0 16px #ff9a2e;
     border-radius: 12px;
@@ -11,20 +12,22 @@
     padding: 24px;
     width: 100%;
     height: 100%;  
+    height: 396px;
+    width: 486px;
 }
-.turntable-box .upper-border{
+.turntable_yellow .upper-border{
     top: 0;
 }
-.turntable-box .lower-border{
+.turntable_yellow .lower-border{
     bottom: 0;
 }
-.turntable-box .left-border{
+.turntable_yellow .left-border{
     left: 0;
 }
-.turntable-box .right-border{
+.turntable_yellow .right-border{
     right: 0;
 }
-.turntable-box .up-down{
+.turntable_yellow .up-down{
     position: absolute;
     left: 8px;
     display: flex;
@@ -33,7 +36,7 @@
     width: calc(100% - 16px);
     justify-content: space-between;
 }
-.turntable-box .up-down{
+.turntable_yellow .up-down{
     position: absolute;
     left: 8px;
     display: flex;
@@ -42,7 +45,7 @@
     width: calc(100% - 16px);
     justify-content: space-between;
 }
-.turntable-box .left-right{
+.turntable_yellow .left-right{
     position: absolute;
     top: 8px;
     display: flex;
@@ -53,27 +56,42 @@
     flex-direction: column;
 }
 /*点*/
-.turntable-box .dot{
+.turntable_yellow .dot{
     border-radius: 50%;
     box-sizing: border-box;
     width: 12px;
     height: 12px;
 }
-.turntable-box .border{
+.turntable_yellow .border{
     border: 1.5px solid #fff7e8;
 }
-.turntable-box .right-border .vertex {
+.turntable_yellow .right-border .vertex {
     visibility: hidden;
 }
-.turntable-box .vertex{
+.turntable_yellow .vertex{
     background: #e37815;
 }
-.turntable-box .up-down .left-border-dot{
+.turntable_yellow .up-down .left-border-dot{
     transform: translateX(-100%);
 }
-.turntable-box .white{
+.turntable_yellow .white{
     background: #fff7e8;
 }
-urntable-box .up-down .right-border-dot{
+.turntable_yellow .up-down .right-border-dot{
     transform: translateX(100%);
+}
+/* 橘盒子 */
+
+.turntable_yellow .item-container {
+    width: 100%;
+    height: 100%;
+    background: #e37815;
+    border-radius: 8px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
 }
