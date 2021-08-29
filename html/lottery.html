@@ -11,15 +11,17 @@
       <p>Switch、乐高积木及掘金周边等你来拿</p>
     </div>
 
+    <!--主体部分-->
     <div class="main">
       <p>::before 幸运抽奖</p>
+      <!--游戏区-->
       <div class="game">
         <div class="game_header">
           <p class="current_value">"当前矿石数："
             <span class="value">182</span>
           </p>
         </div>
-
+        <!--黄色大盒子-->
         <div class="turntable_yellow">
           <div class="upper-border up-down">
             <div class="dot vertex"></div>
@@ -49,8 +51,9 @@
             <div class="dot transparent"></div>
             <div class="dot vertex"></div>
           </div>
-
+          <!--橘色大盒子-->
           <div class="turntable_orange">
+            <!--最内部盒子-->
             <div class="item_container">
               <div class="gift_item">
                 <img src="/images/lotteryImages/mineral.png">
@@ -91,6 +94,22 @@
         </div>
     </div>
     
+    <!--弹窗部分-->
+    <div class="modal_content">
+      <div class="modal_header">
+        <span class="modal_title">友情提示</span>
+      </div>
+      <div class="modal_body">
+        <div class="modal_wrapper">
+          <div class="modal_body_title">当前矿石不足</div>
+          <div class="modal_body_desc">
+            <p class="modal_body_desc">多多赚取矿石吧~</p>
+          </div>
+          <button class="submit" onclick="start()">我知道了</button>
+        </div>
+      </div>
+
+    </div>
   </body>
 
 </html>
