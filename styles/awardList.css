@@ -1,0 +1,39 @@
+.gains_container{
+    width: 100%;
+    overflow: auto;
+    background: #fff;
+    border-radius: 2px;
+}
+.gains_container .gains_wrapper{
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.gains_container .gains_wrapper .empty_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-right: 20px;
+}
+.gains_container .gains_wrapper .empty_box{
+    font-size: 16px;
+    line-height: 24px;
+    color: #86909c;
+    margin: 24px 0;
+}
+.gains_container .gains_wrapper .empty_box .tolottery{
+    display: block;
+    text-align: center;
+    width: 160px;
+    height: 48px;
+    background: #fff;
+    border: 1px solid #1e80ff;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-size: 16px;
+    line-height: 48px;
+    color: #1e80ff;
+    text-decoration:none;
+}
