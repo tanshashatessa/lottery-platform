@@ -57,10 +57,10 @@ function setMessageBox(value){
         var giftpic = giftdel[0].getAttribute('src');
         var giftdesc = giftdel[1].textContent;
         console.log(giftpic);
-        body_img.src=giftpic;
+        // body_img.src=giftpic;
+        $('#modal_body_img').attr('src',giftpic);
         body_title.text("恭喜获得"+giftdesc);
         body_desc.text("真棒👍🏻");
-        console.log(body_img);
     }
     document.getElementById('modal_content').style.display = "";
 }
