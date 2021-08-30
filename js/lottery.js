@@ -48,6 +48,7 @@ function setMessageBox(value){
     var body_img = $('.modal_body_img');
     if(value == "lowStones"){
         title.text("友情提示");
+        $('#modal_body_img').attr('src','');
         body_title.text("当前矿石不足");
         body_desc.text("多多赚取矿石吧~");
     }else{
