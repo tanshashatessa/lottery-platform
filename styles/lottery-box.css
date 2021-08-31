@@ -71,6 +71,9 @@
 .turntable_yellow .vertex{
     background: #e37815;
 }
+.left-right .vertex{
+    visibility: hidden;
+}
 .turntable_yellow .up-down .left-border-dot{
     transform: translateX(-100%);
 }
