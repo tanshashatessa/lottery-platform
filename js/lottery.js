@@ -1,7 +1,8 @@
 
 function init() {
     document.getElementById('modal_content').style.display = "none";
-    $('#value').text(999);
+    var stones = Math.floor(Math.random() * 1000);
+    $('#value').text(stones);
 }
 function start() {
     var stones = $("#value").text();
